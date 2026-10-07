@@ -1,0 +1,15 @@
+{
+  "name": "within-reach",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check api/khalid.js && node --check server.mjs && node --check api/whatsapp.js && node --check api/send-itinerary.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

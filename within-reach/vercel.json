@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/khalid.js": {
+      "includeFiles": "data/khalid.json",
+      "maxDuration": 60
+    },
+    "api/whatsapp.js": {
+      "includeFiles": "data/khalid.json",
+      "maxDuration": 60
+    }
+  }
+}
